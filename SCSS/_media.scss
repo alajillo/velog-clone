@@ -1,0 +1,41 @@
+@mixin media-App($size, $width) {
+    @media (max-width: $size) {
+        #App {
+            max-width: $width;
+        }
+    }
+}
+
+@media (min-width: 1720px) {
+    #App {
+        width: 1670px;
+    }
+}
+
+@include media-App(1600px, 1240px);
+@include media-App(1240px, 960px);
+
+@media (min-width: 800px) {
+    .nav__left {
+        width: 308px;
+    }
+    .main__posts-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+        grid-auto-rows: 377px;
+    }
+}
+
+@media (max-width: 800px) {
+    .nav__left {
+        width: 240px;
+    }
+    .header__right__new-post {
+        display: none;
+    }
+    .main__posts-container {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        grid-auto-rows: repeat(auto-fill, minmax(393px, 1fr));
+    }
+}

@@ -1,0 +1,48 @@
+.main__posts-container {
+    gap: 16px;
+}
+
+.main__post {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    > * {
+        cursor: pointer;
+        flex: 1 1 auto;
+    }
+}
+
+.main__post__summury {
+    font-size: small;
+    margin-bottom: 10px;
+}
+
+.main__post__date-comment {
+    font-size: smaller;
+}
+
+.main__post__meta-information {
+    border-top: 0.1px solid rgb(231, 229, 229);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    img.circle {
+        width: 24px;
+        height: 24px;
+    }
+    .like {
+        > * {
+            margin-right: 8px;
+        }
+    }
+}
+
+.main__post__meta-information__writer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    > * {
+        margin-right: 8px;
+    }
+}

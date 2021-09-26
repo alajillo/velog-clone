@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>velog-clone</title>
+        <script
+            src="https://kit.fontawesome.com/bf0e89a376.js"
+            crossorigin="anonymous"
+        ></script>
+        <link rel="stylesheet" href="./CSS/index.css" />
+    </head>
+    <body>
+        <div id="App">
+            <header>
+                <h2 class="header__title pointer">velog</h2>
+                <div class="header__right flex-row">
+                    <i class="fas fa-search pointer"></i>
+                    <button
+                        class="header__right__new-post round flex-row pointer"
+                    >
+                        새글 작성
+                    </button>
+                    <img
+                        src="velog-image/user.png"
+                        alt="user-porfile"
+                        class="header__right__user-profile circle"
+                    />
+                    <i class="fas fa-sort-down gray pointer"></i>
+                </div>
+            </header>
+            <nav class="flex-row">
+                <div class="nav__left flex-row">
+                    <div class="nav__trend flex-row under-line pointer">
+                        <i class="far fa-lightbulb nav-icon"></i>
+                        <span>트렌딩</span>
+                    </div>
+                    <div class="nav__recent flex-row pointer">
+                        <i class="far fa-clock nav-icon gray"></i>
+                        <span class="gray">최신</span>
+                    </div>
+                    <div class="nav__this-week flex-row background-white">
+                        <span>이번주</span>
+                        <i class="fas fa-sort-down gray"></i>
+                    </div>
+                </div>
+                <i class="fas fa-ellipsis-v gray"></i>
+            </nav>
+            <main>
+                <ul class="main__posts-container">
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="main__post">
+                        <img
+                            src="velog-image/thumbnail.png"
+                            alt="thumnail"
+                            class="main__post__thumnail"
+                        />
+                        <h4 class="main__post__title">
+                            Day.33 Sass(SCSS)(2021.09.15)
+                        </h4>
+                        <span class="main__post__summury gray"
+                            >중괄호가 있고 없고 세미클론 등 세세한 문법적 차이
+                            SCSS 쓰는 것을 추천 Sass의 결과를 CSS로 변환해주는
+                            웹사이트중첩을 벗어나기 위해서는 @at-root상위 선택자
+                            === &중첩된 속성$h : 200px !global; 전역변수로
+                            사용$h : 300px !de</span
+                        >
+                        <span class="main__post__date-comment gray"
+                            >2021년 9월 15일·14개의 댓글</span
+                        >
+                        <div class="main__post__meta-information">
+                            <div class="main__post__meta-information__writer">
+                                <img
+                                    src="velog-image/user.png"
+                                    alt="writer"
+                                    class="circle"
+                                />
+                                <span class="gray">by</span>
+                                <span>alajillo2021</span>
+                            </div>
+                            <div class="like">
+                                <i class="fas fa-heart"></i>
+                                <span>7</span>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </main>
+        </div>
+    </body>
+</html>

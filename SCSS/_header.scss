@@ -1,0 +1,36 @@
+header {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+
+    .header__right {
+        justify-content: space-between;
+        > * {
+            margin: 0 5px;
+        }
+    }
+
+    .fa-sort-down:hover {
+        color: darken($color: gray, $amount: 50%);
+    }
+
+    .header__right__new-post {
+        justify-content: center;
+        width: 97px;
+        height: 32px;
+        border: 1px solid;
+        padding: 2px 4px;
+        background-color: white;
+        font-weight: bold;
+        font-size: 16px;
+        &:hover {
+            background-color: black;
+            color: white;
+        }
+    }
+
+    .header__right__user-profile {
+        width: 40px;
+        height: 40px;
+    }
+}

@@ -1,0 +1,56 @@
+@import "./header";
+@import "./nav";
+@import "./main";
+@import "./media";
+@import "./animation";
+
+body {
+    background-color: rgb(242, 242, 242);
+    margin: 0px;
+    padding: 16px;
+}
+
+#App {
+    margin: 0 auto;
+}
+
+h4 {
+    margin: 0;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.round {
+    border-radius: 15px;
+}
+
+.gray {
+    color: gray;
+}
+
+.flex-row {
+    display: flex;
+    align-items: center;
+}
+
+ul,
+li {
+    margin-left: 0;
+    padding-left: 0;
+    list-style: none;
+}
+
+.blur {
+    filter: blur(1.2rem);
+}
+
+.pointer {
+    cursor: pointer;
+}
+.under-line {
+    height: 100%;
+    border-bottom: 2px solid black;
+}
+@import "./media";
